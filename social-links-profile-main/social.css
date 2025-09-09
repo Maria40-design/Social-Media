@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(0, 0%, 8%);
+    max-width: 90%;
+    font-family: "Karla", sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    height: 100vh;
+    margin: 7% 40%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 12%);
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+}
+img {
+    border-radius: 50%;
+    width: 30%;
+    margin: 10px;
+}
+h1 {
+    margin-bottom: 8px;
+    margin-top: 5px;
+}
+h4 {
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 15px;
+}
+p {
+    opacity: 70%;
+    margin-bottom: 10px;
+}
+button {
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 7px;
+    border: none;
+    color: hsl(0, 0%, 100%);
+}
+button:hover {
+    color: hsl(0, 0%, 20%);
+    background-color: hsl(75, 94%, 57%);
+    margin: 10px;
+}
+@media screen and (max-width: 460px){
+    .container {
+      width: 90%;
+      margin: 5% 7%;
+      height: 100vh;
+      flex-wrap: nowrap;
+    }
+}
